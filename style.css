@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    background-color: rgb(167, 43, 216);
+    width: 100%;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+header ul li{
+    margin: 10px;
+}
+
+img{
+    width: 150px;
+}
+h1{
+    font-size: 34px;
+    color: rgb(42, 42, 163);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p{
+    font-size: 20px;
+    color: rgb(80, 78, 78);
+}
+
+.presentacion{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.presentacion h1{
+    font-size: 35px;
+    color: rgb(197, 114, 13);
+}
+
+.presentacion{
+    width: 70%;
+    font-size: 30px;
+    padding: 10px;
+    font-size:"Delicious Handrawn",cursive;
+}
+
+#nosotros{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#nosotros iframe{
+     padding: 1opx;
+     margin: 10px;
+}       
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: rgb(114, 199, 171);
+}
+
+.caja{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja img{
+    border-radius: 50%;
+}
+
+p{
+    font-size: 12px;
+}
